@@ -9,7 +9,7 @@ const HeroLayout = ({ children }: HeroLayoutProps) => {
     <>
       <header>
         <nav>
-          <h1 className="text-xl">Nav</h1>
+          <h1>Nav</h1>
           <ul>
             <li>
               <Link to={routes.home()}>Home</Link>
@@ -19,7 +19,7 @@ const HeroLayout = ({ children }: HeroLayoutProps) => {
       </header>
       <main>{children}</main>
       <footer>
-        <h1 className="text-xl">Footer</h1>
+        <h1>Footer</h1>
       </footer>
     </>
   )
