@@ -12,6 +12,8 @@ model Category {
   id          Int                 @id @default(autoincrement())
   title       String              @unique
   products    Product[]
+
+  @@map("categories")
 }
 
 model Review {
@@ -21,6 +23,17 @@ model Review {
   rating      Int
   product     Product             @relation(fields: [productId], references: [id])
   productId   Int
+
+  @@map("reviews")
+}
+
+model Image {
+  id          Int                 @id @default(autoincrement())
+  url         String
+  product     Product             @relation(fields: [productId], references: [id])
+  productId   Int
+
+  @@map("images")
 }
 
 model Product {
@@ -33,4 +46,7 @@ model Product {
   gender      String
   price       Decimal
   isFavourite Boolean
+  images      Image[]
+
+  @@map("products")
 }

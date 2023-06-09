@@ -1,6 +1,6 @@
 # E-commerce Application
 
-Welcome to my E-commerce Application. This will showcase skills learnt from the working environment, alongside the university environment.
+This will showcase skills learnt from both the working and university environment.
 
 ## Technologies
 
@@ -8,3 +8,7 @@ Welcome to my E-commerce Application. This will showcase skills learnt from the 
 - PostgreSQL
 - Typescript
 - GraphQL
+
+## Important Links
+
+- [Prisma Data Models](https://www.prisma.io/docs/concepts/components/prisma-schema/data-model)
