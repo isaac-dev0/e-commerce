@@ -16,7 +16,6 @@ const Routes = () => {
     <Router>
       <Set wrap={HeroLayout}>
         <Route path="/" page={HomePage} name="home" />
-        <Route path="/about" page={AboutPage} name="about" />
       </Set>
       <Route notfound page={NotFoundPage} />
     </Router>

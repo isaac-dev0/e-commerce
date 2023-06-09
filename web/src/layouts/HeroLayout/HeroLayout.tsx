@@ -14,9 +14,6 @@ const HeroLayout = ({ children }: HeroLayoutProps) => {
             <li>
               <Link to={routes.home()}>Home</Link>
             </li>
-            <li>
-              <Link to={routes.about()}>About</Link>
-            </li>
           </ul>
         </nav>
       </header>
